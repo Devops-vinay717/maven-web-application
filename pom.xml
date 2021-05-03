@@ -21,8 +21,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.235.83.212:9000/</sonar.host.url>
-		<sonar.login>36e8ae74b215f6551a7545b402a9e18f0ee95f43</sonar.login>
+		<sonar.host.url>http://3.7.17.106:9000/</sonar.host.url>
+		<sonar.login>1479343b844e68967c8a83f2f22d656204eb125b</sonar.login>
 		<!--<sonar.password>admin</sonar.password>-->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Maven-Nexus-Repos</name>
-	      <url>http://13.127.76.119:8081/repository/Honda-Release/</url>
+	      <url>http://13.233.51.205:8081/repository/maven-app-Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Maven-Nexus-Repos</name>
-	      <url>http://13.127.76.119:8081/repository/Honda-SNAPSHOT/</url>
+	      <url>http://13.233.51.205:8081/repository/maven-app-SNAPSHOT/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
